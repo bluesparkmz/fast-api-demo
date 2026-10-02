@@ -6,7 +6,6 @@ app = FastAPI(title="Bluesparkcloud App")
 def root():
     return {"message": "Hello from Bluesparkcloud"}
 
-
 @app.get("/health")
 def health():
     return {"status": "ok"}
